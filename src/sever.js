@@ -28,7 +28,7 @@ app.use(
 // app.use(cors());
 app.use(
   cors({
-    origin: ["http://127.0.0.1:5173", "http://localhost:5173", "https://fsneaker.id.vn", "https://project-3-fnsneaker-be.onrender.com"], // Frontend's origin
+    origin: ["http://127.0.0.1:5173", "http://localhost:5173", "https://fsneaker.id.vn", "https://project-3-f-nsneaker.vercel.app"], // Frontend's origin
     methods: ["GET", "POST", "DELETE", "PUT", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true, // Allow cookies to be sent with requests
